@@ -15,7 +15,7 @@ if (number >= 100 & number < 1000)
 if (number >= 1000)
 {
     int neededNumber = number;
-    while (neededNumber > 1000) 
+    while (neededNumber >= 1000) 
     {
         neededNumber = neededNumber / 10;
     }
